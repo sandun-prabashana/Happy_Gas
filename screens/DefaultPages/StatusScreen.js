@@ -45,7 +45,9 @@ componentDidMount(){
   render() {
     flatlistref = null;
     return (
-      <View style={styles.container}>
+      <View style={styles.container}
+      onTouchStart={() => {this.goStatus( )}}
+      >
         <FlatList
                 ref={(ref) => this.flatlistref = ref}
                 style={styles.Fatlist}

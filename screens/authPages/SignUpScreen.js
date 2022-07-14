@@ -79,6 +79,16 @@ export default class SignUpScreen extends Component {
             const {signIn} = this.context;
             console.log(json.name)
             // signIn(json.user, json.token);
+            SweetAlert.showAlertWithOptions({
+              title: 'User Register Successful',
+              subTitle: '',
+              confirmButtonTitle: 'OK',
+              confirmButtonColor: '#000',
+              otherButtonTitle: 'Cancel',
+              otherButtonColor: '#dedede',
+              style: 'success',
+              cancellable: true
+            });
           })
           .catch(error => {
             console.log('error ' + error);

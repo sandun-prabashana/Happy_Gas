@@ -1,6 +1,6 @@
 export default class UserServices {
     
-    baseUrl = 'https://3d9e-2402-d000-812c-770e-d0e1-cb98-d16e-5765.ap.ngrok.io';
+    baseUrl = 'https://066b-2402-d000-812c-fdf5-809e-e37-c792-6cce.in.ngrok.io';
 
 
     async signUp(userDTO) {

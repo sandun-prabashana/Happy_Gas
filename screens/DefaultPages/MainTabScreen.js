@@ -127,6 +127,7 @@ const DeliverStackScreen = ({navigation}) => (
   );
 
   const StatusStackScreen = ({navigation}) => (
+    
     <StatusStack.Navigator screenOptions={{
             headerStyle: {
             backgroundColor: '#d02860',

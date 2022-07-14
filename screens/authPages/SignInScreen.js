@@ -151,7 +151,7 @@ const SignInScreen = ({navigation}) => {
             animation="fadeInUpBig"
             style={[styles.footer]}
         >
-            <Text style={[styles.text_footer]}>Username</Text>
+            <Text style={[styles.text_footer]}>User Nic</Text>
             <View style={styles.action}>
                 <FontAwesome 
                     name="user-o"
@@ -159,7 +159,7 @@ const SignInScreen = ({navigation}) => {
                     size={20}
                 />
                 <TextInput 
-                    placeholder="Your Username"
+                    placeholder="Your User Nic"
                     placeholderTextColor="#666666"
                     style={[styles.textInput]}
                     autoCapitalize="none"
